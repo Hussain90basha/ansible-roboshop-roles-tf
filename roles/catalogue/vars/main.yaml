@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.eliyas.fun
+MONGODB_HOST: mongodb-{{ env }}.eliyas.fun
