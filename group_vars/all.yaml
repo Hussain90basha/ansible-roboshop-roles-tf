@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.eliyas.fun
-REDIS_HOST: redis.eliyas.fun
-CATALOGUE_HOST: catalogue.eliyas.fun
-CART_HOST: cart.eliyas.fun
-MYSQL_HOST: mysql.eliyas.fun
-USER_HOST: user.eliyas.fun
-RABBITMQ_HOST: rabbitmq.eliyas.fun
-SHIPPING_HOST: shipping.eliyas.fun
-PAYMENT_HOST: payment.eliyas.fun
+MONGODB_HOST: mongodb-{{ env }}.eliyas.fun # mongodb-dev.eliyas.fun
+REDIS_HOST: redis-{{ env }}.eliyas.fun
+CATALOGUE_HOST: catalogue-{{ env }}.eliyas.fun
+CART_HOST: cart-{{ env }}.eliyas.fun
+MYSQL_HOST: mysql-{{ env }}.eliyas.fun
+USER_HOST: user-{{ env }}.eliyas.fun
+RABBITMQ_HOST: rabbitmq-{{ env }}.eliyas.fun
+SHIPPING_HOST: shipping-{{ env }}.eliyas.fun
+PAYMENT_HOST: payment-{{ env }}.eliyas.fun
